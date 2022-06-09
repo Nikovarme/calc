@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/09.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100%;
+}
+.answer{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.answer span{
+    font-size: 30px;
+}
+.calculatedanswer{
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000000;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    width: 300px;
+    margin: 20px auto;
+}
+.inputs input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.gilaki{
+    width: 100%;
+    padding: 20px;
+    background-color: #c495d7;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.maincalc{
+    width: 600px;
+    border: 1px solid #000000;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.calcgilaki{
+    width: 22%;
+    height: 80px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.udris{
+    background-color: rgba(41, 100, 247, 1);
+}
+.udris span{
+    font-weight: 900;
+}
+.nacr{
+    background-color: rgba(0, 0, 0, 0.7);
+}
